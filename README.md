@@ -12,7 +12,7 @@ Completed Simple CRM Lite for [Lesson 4.11: CI Practicals - Applying CI to Simpl
 
 ![Pulling and running image locally](assets/images/local-run.jpg)
 
-Part 6 - Challenge: Deploy simple-crm-lite to Railway
+## Part 6 - Challenge: Deploy simple-crm-lite to Railway
 
 Postgres database and `simple-crm-lite` image deployed on Railway.
 
