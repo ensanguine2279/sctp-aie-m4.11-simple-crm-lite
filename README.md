@@ -2,4 +2,12 @@ Completed Simple CRM Lite for [Lesson 4.11: CI Practicals - Applying CI to Simpl
 
 ## Part 4 - Setup and Run Pipeline
 
+![`build-test-publish` pipeline in Circle CI](assets/images/circle-pipeline.jpg)
 
+## Part 5 Step 1: Verify Docker Image on Docker Hub
+
+![Image published to Docker Hub](assets/images/dockerhub-images.jpg)
+
+## Part 5 Step 2: Pull and Run the Image Locally
+
+![Pulling and running image locally](assets/images/local-run.jpg)
