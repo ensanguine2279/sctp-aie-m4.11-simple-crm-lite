@@ -88,6 +88,7 @@ jobs:
           command: |
             echo "Logging in to Docker Hub..."
             echo $DOCKER_TOKEN | docker login -u $DOCKER_USERNAME --password-stdin
+            printf '%s' "$DOCKER_TOKEN" | docker login --username "$DOCKER_USERNAME" --password-stdin
             echo "Pushing image to Docker Hub..."
             docker push $DOCKER_USERNAME/simple-crm-lite:latest
 
@@ -102,4 +103,3 @@ workflows:
           context: docker-hub
           requires:
             - test
-            
